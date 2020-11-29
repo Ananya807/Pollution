@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+body {
+    font-family: 'Aladin', cursive;
+    /* text-align: center; */
+}
+
+.navbar a:hover {
+    background-color: black;
+    box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.navbar {
+    background-color: grey;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    display: inline-block;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+/* 
+nav>div {
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+} */
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 22px;
+    color: hotpink;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+a#Ad {
+  padding-right: 100px;
+}
+
+.section>p {
+    margin-top: 30px;
+    text-align: center;
+    padding: 0px, 280px;
+    font-size: 24px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 32px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+header>h1 {
+    text-align: left;
+    font-size: 60px;
+    padding-top: 4em;
+    padding-left: 40px;
+    margin: 0px;
+}
+
+.divh2 {
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 17em;
+    padding-left: 5.5em;
+    font-size: 20px;
+    margin: 0px;
+    width: 15em;
+    top: -40em;
+}
+
+h4 {
+    font-size: 22px; 
+    text-align: center;
+}
+
+h5 {
+    font-size: 24px;
+    width: 30em;
+    padding-left: 13em;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    font-size: 42px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+h4#water {
+    color: teal;
+}
+
+h4#noise {
+    color: #f5dc3b;
+}
+
+h4#air {
+    color: #263b33;
+}
+
+p#effects {
+    font-weight: bold;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+    max-width: 2800px;
+    position: relative;
+    margin: auto;
+    height: 3000px;
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    top: 0px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  img {
+    position: absolute;
+    left: 0px;
+    top: -52em;
+    z-index: -2;
+    position: relative;
+    height: 1000px;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+p.advertise {
+  text-align: left;
+  width: 900px;
+  font-size: 22px;
+  padding-left: 20px;
+  color: #ffa500;
+  font-family: 'Piedra', cursive;
+  font-weight: 900;
+}
+
+a.email {
+  font-size: 22px;
+  margin: 0px;
+  color: darkblue;
+}
+
+header#ad {
+  background-image: url(assets/Untitled\ design.png);
+  height: 600px;
+  color: #f2f2f2;
+  width: 1346px;
+}
+
+h1#problems {
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+a.thank {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+  /* padding-right: 800px; */
+}
+
+.contact {
+  font-size: 24px;
+  width: 675px;
+}

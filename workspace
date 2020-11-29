@@ -1,0 +1,263 @@
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3500); // Change image every 3 seconds
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <nav>
+       <div> 
+        <a href="#home">Home</a>
+        <a href="#causes-of-air-pollution">Causes of Air Pollution</a>
+        <a href="#causes-of-noise-pollution">Causes of Nosie Pollution</a>
+        <a href="#causes-of-water-pollution">Causes of Water Pollution</a>
+        <a href="#effects-of-pollution">Effects of Pollution</a>
+       </div>
+   </nav>
+
+   <header id="home">
+       <h1>Pollution</h1>
+   </header>
+
+   <div id="causes-of-air-pollution" class="section">
+    <div class="section">
+      <h1>Air Pollution</h1>
+       <h2>Causes of Air Pollution</h2>
+        <p id="causes-air">
+            <h3>1. Burning of fossil fuels:</h3> 
+                <p>
+                   When fossil fuels are burned, large quantities of carbon dioxide are emitted into the air causing <br>
+                   the heat to be trapped in atmoshpere, which causes climate change. For example, coal, petroleum, <br>
+                   and other factory combustions is a major cause, which causes the air to be harmful, since so many <br>
+                   bad chemicals and gases are thrown out. By doing this everyday, we are hurting ourselves and the <br>
+                   earth. 
+                </p>
+         
+            <h3>2. Exhaust from Factories and Industries</h3>
+                <p>
+                   Industries, especially manufacturing industries release huge amounts of carbon monoxide,<br>
+                   hydrocarbons, organic compounds, and chemicals into the air, thus, depleting the quality of air.<br>
+                   Manufacturing can be found in every corner of the world and there isn't a single place that is not<br>
+                   affected by it. Factories also contribute in producing large amounts of harmful gases as they, too, <br>
+                   burn large amounts of fossil fuels. 
+                </p>
+          
+            <h3>3. Indoor Air Pollution</h3>
+                <p>
+                   Household items such as painting suppiles emit toxic chemicals into the air, which causes air <br>
+                   pollution. Also, if you have carpets in your house, then the dust falls onto your carpet as <br>
+                   the carpet collects it, making your house even more dusty, whithout you relazing it. World <br>
+                   Health Organization (WHO) says that "The combined effects of ambient (outdoor) and household <br>
+                   air pollution cause about seven million premature deaths every year... ." This shows us how <br>
+                   dangerous air pollution can be and is.   
+                </p>
+         
+            <h3>4. Agricultural Activties</h3>
+                <p>
+                   Ammonia is used in agricultural-related activties and is one of the most hazardous gases in the <br>
+                   atmoshpere. Pesticides and fertilizers have grown a lot these days and emit harmful chemicals <br>
+                   into the air and water causing air and water pollution. Farmers also set the crops and fields on <br>
+                   fire to keep them clean, so they are ready to sow, again. When fields and crops are burned they <br>
+                   release enormous amounts of harmful gases into the air. 
+                </p>
+            </p>
+       </div>
+   </div>   
+
+   <div id="causes-of-noise-pollution" class="section">
+    <div class="section">
+     <h1>Noise Pollution</h1>
+     <h2>Causes of Noise Pollution</h2>
+     <p id="causes-noise">
+         <h3>1. Industrialization</h3>
+            <p>
+                Many industries use big machines which produce large amounts of noise. Plus, there are other <br>
+                machines such as compressors, generators, exhaust fans, and grinding mills which also, participate <br>
+                in producing loud noises. The workers in these industries have to wear earplugs to reduce the volume <br>
+                of the noise, but still all the noise is not depleted. Even after such precautionaries the noise can <br> 
+                hurt them and damage their ears a lot, especially after working for long periods of time.
+            </p> 
+
+         <h3>2. Transportation</h3>
+            <p>
+                There are many vehicles on the road, in the air such as airplanes, helicopters, etc, and underground <br>
+                trains which produce massive noise. People who live nearby these places slowly lose the full capicity <br>
+                of hearing and can't hear small noises like others can. This becomes a difficulty for those who live <br>
+                there. 
+            <p>
+
+         <h3>3. Construction Activites</h3>
+            <p> 
+                When there are construction activties going on such as mining, construction of bulidings, dams, bridges, <br>
+                roads, stations, etc plenty of noises are heard. These constructions take place everyday in some part of <br>
+                the world, since we need to make the roads stronger after they have gotten old and need more bulidings <br>
+                and bridges to accomodate more people. Meanwhile, this does help us to travel and live, but such noises <br>
+                that are heard for a long period of time cause the ears harm. Noise like these are strong and hearing <br>
+                almost veryday hinders the hearing abilities of individuals, especially the workers. 
+            </p>
+
+         <h3>4. Noises form Air Traffic</h3>
+            <p>
+                Airjets and other flying vehicles create a lot of noise. The noise produced by a single aircraft is 130 dB. <br>
+                If you have ever heard a jet takeoff right next to you, then you know how loud it is, and such loud noises <br>
+                over 120 dB cause immediate damage to your ears. For instance, take numerous airjets and imagine all the <br>
+                noise they produce in our air space. That's pretty loud, isn't it? 
+           </p>
+     </p>
+    </div>
+ </div>  
+
+   <div id="causes-of-water-pollution" class="section">
+    <div class="section">
+      <h1>Water Pollution</h1>
+      <h2>Causes of Water Pollution</h2>
+      <p id="causes-water">
+        <h3>1.Industrial Waste</h3>
+            <p>
+              Industries produce an enormous amount of waste, for example, cafeteria garbage, dirt and gravel, masonry <br>
+              concrete, scrap metals, trash, oil, solvents, chemicals, weed grass and trees, wood and scrap lumber, and <br>
+              similar wastes. All of these wastes and chemicals are really harmful to the environment, animals, and us. <br>
+              Industries, which do not have proper waste management system, drain the waste into the fresh water. This <br>
+              waste, later on, goes into canals, rivers, and later into the sea. All of the bad waste and toxic chemicals <br>
+              change the temperature of water, increase the number of minerals, called eutrophication, change the color of <br>
+              water, and arise severe problems to the water organisms.  
+            </p>
+
+        <h3>2. Sewage and Wastewater</h3>
+            <p>
+               Sewage and wastewater are produced in each household that are chemically treated and then released into sea <br>
+               along with fresh water. The sewage water carries harmful chemicals and bacterias which hurt the sea, cause <br>
+               serious health problems and diseases, and hurt the sea animals. There are billions of people on earth, so we <br>
+               need to pay close attention and treat sewage water since it's a big priority. There are many places where <br>
+               some people don't have the access to clean water and sanitary conditions, which can cause them to have some <br>
+               health problems or might even develop a disease. There are also microorgansims in the water that known to <br>
+               cause deadly diseases. So if sewage water is left untreated, then the water can contaminate the environment <br>
+               and cause diseases such as Malaria.
+            </p>
+
+        <h3>3.Marine Dumping</h3>
+            <p>
+              The garbage collected from our household such as paper, plastic, food, aluminum, rubber, glass, is collected <br>
+              and then dumped into the ocean or sea in some countries. Items like these take 2 weeks or even 100 of years to <br>
+              decompose, especially plastic which can take millions of years to decompose. When such garbage goes put into <br>
+              the sea/ocean, water organisms are harmed. Safe Water Drinking Foundation states "Litter items such as 6-pack <br>
+              ring packaging and microfilament fishing lines can entrap pelicans and other seabirds, and ultimately strangle <br>
+              or starve the birds. For example, the world’s largest living turtle, the leatherback, ... . ...  mistake plastic <br>
+              bags, balloons or containers for jellyfish — their favourite food." This shows us how animals of all kind are <br>
+              being harmed and endangered. Just because of our garbage and trash other species of animals are getting hurt, <br>
+              so we need to stop littering and focus on how we can stop this. 
+            </p>
+
+        <h3>4.Accidental Oil Leakage</h3>
+            <p>
+                Accidental oil leakage, especially large amounts of oil spills have a huge effect on the sea/ocean because oil <br>
+                does not dissolve in water. When a ship is carrying large amounts of oil, it may spill if it meets with an <br>
+                accident. Such accidents can cause varying damage to local marine life depending on the amount of spill, <br>
+                toxins, and the size of the ocean because when this happens it suffocates fish, gets caught in the feathers <br>
+                of marine birds stopping them from flying and blocks light from photosynthetic aquatic plants.
+            </p>
+
+        </p>
+    </div>
+</div>
+
+   <div id="effects-of-pollution" class="section">
+    <div class="section">
+        <h2>Effects of Pollution</h2>
+        <p id="effects">
+            <h3>1.Effects of Air Pollution</h3>
+               <p>
+                  The effects of air pollution are very problematic. Air pollution causes respiratory and heart problems, <br>
+                  child health problems, global warming, acid rain, eutrophication, force wildlife species to move to a <br>
+                  new place and change their habitat, and depletion of the ozone layer. We can solve these issue by using <br>
+                  public mode of transportation, implant better household practices, conserve energy, get a clear <br>
+                  understanding of reduce, reuse, and recycle, emphasis on clean resources, and use energy efficient <br>
+                  devices. 
+                </p>
+            
+            <h3>2. Effects of Noise Pollution</h3>
+            <p>
+                The effects of noise pollution can give you hearing problems, psychological issues, physical problems, <br>
+                cognitive issues & behavioral changes, sleeping disorders, cardiovascular issues, trouble communicating, <br>
+                and animals can't communicate if there's constant noise. One way we could solve these issues is if the <br>
+                government takes measures to ensure correct noise management. 
+            </p>
+        </p>
+    </div>
+</div>
+
+
+</body>
+</html>
+ </div>
+
+
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+body {
+    font-family: 'Aladin', cursive;
+}
+
+.section>p {
+    margin-top: 30px;
+    text-align: center;
+    padding: 0px, 280px;
+    font-size: 24px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 22px; 
+    text-align: center;
+}
+
+h5 {
+    font-size: 18px;
+    width: 30em;
+    text-align: center;
+    padding-left: 21.5em;
+}
